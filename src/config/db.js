@@ -8,5 +8,5 @@ const { Pool } = pg;
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
 });
-
+// Test the database connection
 export default pool;
