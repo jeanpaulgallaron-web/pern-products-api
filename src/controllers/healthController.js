@@ -5,3 +5,4 @@ export const getHealth = (req, res) => {
     message: "API is running!"
   });
 };
+
